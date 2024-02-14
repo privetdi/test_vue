@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
 
-
 export interface Iitem {
     id: number
     price: number
     count: number
 }
-
 
 const emits = defineEmits(['updateCount'])
 

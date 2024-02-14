@@ -3,7 +3,6 @@ import { IProduct } from '../api/interface';
 import store from '../store/store';
 import CardProduct from '../components/CardProduct.vue'
 
-
 const busket: IProduct[] | [] = store.state.busket
 
 </script>
